@@ -1,0 +1,112 @@
+/*************************
+Desiging the Protfolio page
+**************************/
+
+body {
+  font-family: "monospace", sans-serif;
+}
+
+.font-primary {
+  color: #00abae;
+}
+
+.title-icon {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#navbarSupportedContent ul li a:hover {
+  color: #00abae;
+}
+
+#navbarSupportedContent ul li a {
+  font-weight: bold;
+  color: #000;
+}
+
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+/*************************
+About Div Section
+**************************/
+
+#about-txt {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+#about-txt img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+#about-txt .name {
+  font-size: 19px;
+}
+
+#about-txt .profession {
+  font-size: 17px;
+  color: #a8a8ab;
+  margin-bottom: 10px;
+}
+
+#about-txt .skills {
+  font-size: 14px;
+  color: #00abae;
+  margin-bottom: 10px;
+}
+
+#about-txt .email {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#about-txt .icon {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#about-txt .icon a {
+  color: #000;
+}
+
+#about-txt .icon a:hover {
+  color: #00abae;
+}
+
+/*************************
+Projects Div Section
+**************************/
+
+#project {
+  margin: 60px auto;
+  width: 80%;
+}
+
+#project h2 {
+  text-align: center;
+}
+#project .card-title {
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: #00abae;
+  border-color: #00abae;
+}
+
+img.img-fluid.rounded-start {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
